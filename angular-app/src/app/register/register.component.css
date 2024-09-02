@@ -46,4 +46,18 @@
     font-family:"Playfair Display", serif;
     font-weight: 600;
 }
+.link{
+    color: #f99639;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 6%;
+}
+.link a{
+    color: #f99639;
+    text-decoration: none;
+    font-size: 18px;
+}
+.link a:hover{
+    text-decoration: underline white 2px;
+}
 
