@@ -46,4 +46,34 @@
     font-family:"Playfair Display", serif;
     font-weight: 600;
 }
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.links a{
+    color: #f99639;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.links a:hover{
+    border: 3px solid white;
+    border-radius: 16px;
+    padding: 5px;
+}
+.secondlink a{
+    display: flex;
+    width: 33%;
+    margin-top: 3%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f99639;
+    text-decoration: none;
+}
+.secondlink a:hover{
+    border: 3px solid white;
+    padding: 6px;
+    border-radius: 16px;
 
+}
