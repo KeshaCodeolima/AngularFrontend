@@ -2,11 +2,11 @@
     <div class='main'>
       <h1>Forget page</h1>
   
-      <form>
-        <input type="text" placeholder='Email' />
-        <input type="password" placeholder='Password' />
+      <form (ngSubmit)="onforget()">
+        <input type="text" placeholder='Email' [(ngModel)]="email" name="email" />
+        <input type="password" placeholder='New Password'[(ngModel)]="new_password" name="new_password" />
 
-        <button type="submit">Admin</button>
+        <button type="submit">Renew</button>
 
         <div class="secondlink">
           <a href="/register">Register Now</a>

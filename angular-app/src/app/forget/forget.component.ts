@@ -1,28 +1,31 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-forget',
   standalone: true,
-  imports: [],
+  imports: [FormsModule,HttpClientModule],
   templateUrl: './forget.component.html',
   styleUrl: './forget.component.css'
 })
 export class ForgetComponent {
   email:String='';
-  password:String='';
+  new_password:String='';
 
   constructor(private http:HttpClient){}
 
   onforget(){
     const forgetData ={
       email:this.email,
-      password:this.password
+      password:this.new_password
     };
     this.http.post('http://127.0.0.1:5000/update',forgetData).subscribe(res=>{
       console.log("Successfully Change the password",res);
-      alert("Successfully Change the password");},
-      error=>{console.log("password is not change ",error);
-      })
+      alert("Successfully Change the password");
+    },error=>{console.log("password is not change ",error);
+    });
   }
 }
+
