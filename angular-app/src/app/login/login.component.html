@@ -1,1 +1,19 @@
-<p>login works!</p>
+<div class='box'>
+  <div class='main'>
+    <h1>Login page</h1>
+
+    <form (ngSubmit)="onLogin()">
+      <input type="text" placeholder='Email' [(ngModel)]="email" name="email" />
+
+      <input type="password" placeholder='Password' [(ngModel)]="password" name="password" />
+      <div class="links">
+        <a href="/froget">Forget Password</a>
+        <a href="/admin">Admin page</a>
+      </div>
+      <button type="submit">Login</button>
+      <div class="secondlink">
+        <a href="/register">Register Now</a>
+      </div>
+    </form>
+  </div>
+</div>
