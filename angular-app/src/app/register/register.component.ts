@@ -18,7 +18,6 @@ export class RegisterComponent {
 
    constructor(private http: HttpClient){}
 
-
    onRegister() {
     const userData = {
       name: this.name,
