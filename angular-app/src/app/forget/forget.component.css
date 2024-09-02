@@ -46,15 +46,13 @@
     font-family:"Playfair Display", serif;
     font-weight: 600;
 }
-.links{
+.secondlink{
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 4%;
 }
 .secondlink a{
-    display: flex;
-    width: 33%;
-    margin-top: 3%;
     font-size: 16px;
     font-weight: 600;
     color: #f99639;
@@ -62,7 +60,7 @@
 }
 .secondlink a:hover{
     border: 3px solid white;
-    padding: 6px;
+    padding: 4px;
     border-radius: 16px;
 
 }
