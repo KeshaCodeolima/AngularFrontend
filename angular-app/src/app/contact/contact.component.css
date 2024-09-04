@@ -1,0 +1,78 @@
+.maincontact{
+    display: flex;
+}
+.image{
+    flex: 5;
+    margin-top: 6%;
+}
+.contactbox{
+    flex: 6;
+    margin-left: 16%;
+    margin-top: 8%;
+}
+.box1{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(250, 214, 116);
+    padding: 3% 0% 16% 0%;
+    width: 90%;
+    border-radius: 40px;
+}
+.input{
+    width: 55%;
+    margin-top: 4%;
+    padding: 1.5%;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 22px;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left:4%;
+    background-color: transparent;
+}
+.input::placeholder{
+    color:#f99639;
+    font-weight: 600;
+}
+.box1 textarea{ 
+    width: 80%;
+    height: 25vh;
+    margin-top: 3%;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 1.5%;
+    outline: none;
+    margin-left: 4%;
+    background-color: transparent;
+}
+.box1 textarea::placeholder{
+    color:#f99639;
+    font-weight: 600;
+}
+.btn{
+   background-image: linear-gradient(90deg,rgb(250, 236, 129),rgb(254, 205, 30)); 
+   padding:8px;
+   margin-left: 4%;
+   margin-top: 4%;
+   margin-bottom: -4%;
+   font-size: 18px;
+   font-weight: bold;
+   border: 2px solid white;
+   border-radius: 20px;
+   color: #f99639;
+   width: 30%;
+}
+.img{
+    margin-left: -48%;
+    width: 150%;
+    height: 80vh;
+    border-radius:4%;
+    transition: 1s;
+}
+.img:hover{
+    transform:scale(1.1);
+}
