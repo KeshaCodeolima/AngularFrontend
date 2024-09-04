@@ -1,6 +1,6 @@
 .maincontact{
     display: flex;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 .image{
     flex: 5;
@@ -12,7 +12,7 @@
 .box1{
     display: flex;
     flex-direction:column;
-    background-color:rgb(250, 214, 116);
+    background-color: rgb(250, 214, 116);
     padding: 3% 0% 16% 0%;
     width: 90%;
     border-radius: 40px;
@@ -21,30 +21,47 @@
     width: 55%;
     margin-top: 4%;
     padding: 1.5%;
-    border:2px solid sandybrown;
+    border: 2px solid white;
     outline: none;
-    border-radius: 10px;
-    color:#f99639;
+    border-radius: 22px;
+    color:white;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     margin-left:4%;
+    background-color: transparent;
 }
 .input::placeholder{
-    color: rgb(254, 216, 149);
+    color:#f99639;
+    font-weight: 600;
 }
-.box1 textarea{
+.box1 textarea{ 
     width: 80%;
     height: 25vh;
     margin-top: 3%;
-    border: 2px solid sandybrown;
-    border-radius: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
     font-size: 16px;
-    font-weight: 600;
-    color: #f99639;
+    font-weight: 400;
+    color: white;
     padding: 1.5%;
     outline: none;
     margin-left: 4%;
+    background-color: transparent;
 }
 .box1 textarea::placeholder{
-    color:rgb(254, 216, 149);
+    color:#f99639;
+    font-weight: 600;
+}
+.btn{
+   background-image: linear-gradient(90deg,rgb(250, 236, 129),rgb(254, 205, 30)); 
+   padding:8px;
+   margin-left: 4%;
+   margin-top: 4%;
+   margin-bottom: -4%;
+   font-size: 18px;
+   font-weight: bold;
+   border: 2px solid white;
+   border-radius: 20px;
+   color: #f99639;
+   width: 30%;
 }
