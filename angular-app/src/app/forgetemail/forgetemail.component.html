@@ -1,1 +1,16 @@
-<p>forgetemail works!</p>
+<div class='box'>
+    <div class='main'>
+      <h1>Forget Email page</h1>
+  
+      <form (ngSubmit)="onforgetemail()">
+        <input type="text" placeholder='Email' [(ngModel)]="email" name="email" />
+
+        <button type="submit">Renew</button>
+
+        <div class="secondlink">
+          <a href="/login">Login</a>
+          <a href="/home">Home Page</a>
+        </div>
+      </form>
+    </div>
+  </div>
