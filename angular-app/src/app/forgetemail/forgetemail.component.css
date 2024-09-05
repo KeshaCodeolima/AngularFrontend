@@ -1,0 +1,66 @@
+.box{
+    background-color: rgb(250, 214, 116);
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 20px 30px;
+    margin: 100px auto; 
+    width: 300px;
+    
+}
+.main h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #f99639;  
+}
+.main input{
+    background-color: transparent;  
+    font-size: 15.5px;
+    color:white;
+    margin: 8px;
+    border-radius: 25px;
+    border: 2px solid white;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+    outline: none;
+}
+.main input::placeholder{
+    color:#f99639;
+    font-family:"Playfair Display", serif;
+    font-weight: 600;
+}
+
+.main button{
+    background:linear-gradient(90deg,rgb(250, 236, 129),rgb(254, 205, 30));
+    color:#f99639;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 8px;   
+    width: 60%;
+    margin-top: 25px; 
+    margin-left: 20%;
+    font-family:"Playfair Display", serif;
+    font-weight: 600;
+}
+.secondlink{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.secondlink a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #f99639;
+    text-decoration: none;
+}
+.secondlink a:hover{
+    border: 3px solid white;
+    padding: 4px;
+    border-radius: 16px;
+
+}
