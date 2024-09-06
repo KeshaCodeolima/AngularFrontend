@@ -4,11 +4,13 @@
     </div>
     <div class="contactbox">
         <div class="box1">
-            <input type="text" placeholder="Enter Your Name" class="input">
-            <input type="text" placeholder="Enter Your Email"class="input">
-            <textarea name="" id="" placeholder="Enter Message"></textarea>
+            <form (ngSubmit)="onsubmit()">
+                <input type="text" placeholder="Enter Your Name" [(ngModel)]="name" name="name" class="input">
+                <input type="text" placeholder="Enter Your Email" [(ngModel)]="email" name="email" class="input">
+                <textarea placeholder="Enter Message" [(ngModel)]="message" name="message"></textarea>
 
-            <button type="submit" class="btn">Send</button>
+                <button type="submit" class="btn">Send</button>
+            </form>
         </div>
     </div>
 </div>
